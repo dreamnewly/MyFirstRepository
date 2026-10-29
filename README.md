@@ -1,11 +1,28 @@
-# Git and GitHub practice project
+# Практика Git и GitHub
 
-A small Python project for practicing repository setup, commits, branches, and pushing to GitHub.
+Учебный Python-проект для практики команд Git и публикации кода на GitHub.
 
-## Run
+## Файлы
 
-```bash
+- `main.py` — запускаемая программа.
+- `.gitignore` — исключения для виртуального окружения, кэша, временных и IDE-файлов.
+- `requirements.txt` — внешние зависимости не требуются.
+
+## Запуск
+
+```powershell
 python main.py
 ```
 
-The project uses only the Python standard library.
+Для локального окружения:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+Каталог `.venv/` остаётся только на компьютере и не отправляется в GitHub.
+
+## Практики курса
+
+Отдельные ветки и локальные репозитории для упражнений по истории коммитов, cherry-pick и rebase, `commit --amend`, тегам и `git describe` будут оформлены после основной практики публикации.

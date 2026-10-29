@@ -1,1 +1,1 @@
-# No external dependencies are required.
+# В проекте используются только стандартные библиотеки Python.

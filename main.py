@@ -1,8 +1,8 @@
-"""A tiny project for practicing Git and GitHub."""
+"""Небольшой проект для практики Git и GitHub."""
 
 
 def main() -> None:
-    print("Hello, Git and GitHub!")
+    print("Привет, Git и GitHub!")
 
 
 if __name__ == "__main__":
